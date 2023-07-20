@@ -31,7 +31,7 @@
   }
 
   p {
-    @apply my-4 leading-6;
+    @apply my-2 leading-6;
   }
 
   h1 + p {
