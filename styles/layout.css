@@ -18,7 +18,7 @@
   }
 
   h2 {
-    @apply text-2xl font-700 text-[#107aca] mt-4;
+    @apply text-2xl text-[#107aca] mt-4;
     font-family: 'Roboto', sans-serif;
   }
 
