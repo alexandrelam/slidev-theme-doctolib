@@ -38,7 +38,7 @@
     @apply -mt-2 mb-4;
   }
 
-  p + h2, ul + h2, table + h2 {
+ table + h2 {
     @apply mt-10;
   }
 
