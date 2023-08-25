@@ -41,6 +41,25 @@ This is a paragraph!!
 
 Hello
 
+---
+layout: chapter-cover
+---
+
+# 01.
+# Title of the chapter
+
+## Subtitle of the chapter
+
+---
+layout: chapter-grid
+---
+
+<GridItem title="01." subtitle="Title of the chapter" />
+<GridItem title="02." subtitle="Title of the chapter" />
+<GridItem title="03." subtitle="Title of the chapter" />
+<GridItem title="04." subtitle="Title of the chapter" />
+<GridItem title="05." subtitle="Hello" />
+<GridItem title="06." subtitle="Title of the chapter" />
 
 ---
 
