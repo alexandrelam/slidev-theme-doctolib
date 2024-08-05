@@ -98,14 +98,14 @@
 }
 
 .slidev-layout.cover {
-  @apply h-full grid bg-[#3778C4] text-white;
+  @apply h-full grid bg-[#107ACA] text-white;
 
   h1 {
-    @apply text-3xl leading-20 font-700 -mt-10;
+    @apply text-5xl leading-20 font-700 -mt-10;
   }
 
   h1 + p {
-    @apply -mt-8 opacity-50 mb-4;
+    @apply text-2xl font-700 mb-4;
   }
 
   p + h2,
@@ -117,7 +117,7 @@
 
 
 .slidev-layout.chapter-cover {
-  @apply h-full grid bg-[#3778C4] text-white text-center;
+  @apply h-full grid bg-[#107ACA] text-white text-center;
 
   h1 {
     @apply text-3xl leading-20 font-700 -mt-10 mb-0;
@@ -133,7 +133,7 @@
   @apply bg-[#041363] h-full grid grid-cols-3 justify-center items-center pt-24 pb-32 text-white text-center;
 
   h1 {
-    @apply text-3xl leading-20 font-700  mb-0 text-[#3778C4];
+    @apply text-3xl leading-20 font-700  mb-0 text-[#107ACA];
   }
 
   h2 {

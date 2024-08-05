@@ -2,9 +2,9 @@
 theme: ./
 ---
 
-# Slidev Theme Doctolib
+# Doctolib Template C0.
 
-For doctolibers who want to use Slidev for their presentations.
+Subtitle of the presentation
 
 ---
 
