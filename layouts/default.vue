@@ -5,5 +5,8 @@
             <img src="https://github.com/alexandrelam/slidev-theme-doctolib/blob/new-theme/public/logo-blue.png?raw=true" class="h-4" />
             <ConfidentialityLevel :confidentialityLevel="$slidev.configs.confidentialityLevel" :isLight="true" :isSmall="true"/>
         </div>
+        <div class="absolute text-xs bottom-6 right-10">
+            <span>{{ $nav.currentPage }} / {{ $nav.total }}</span>
+        </div>
     </div>
 </template>
