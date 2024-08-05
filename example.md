@@ -1,5 +1,9 @@
 ---
-theme: ./
+theme: ./ # replace with "doctolib" to use the Doctolib theme
+title: Example Doctolib slides
+author: Alexandre Lam
+exportFilename: doctolib-example
+confidentialityLevel: 0
 ---
 
 # Doctolib Template C0.

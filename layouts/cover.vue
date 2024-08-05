@@ -7,6 +7,9 @@
       <div class="text-center">
         <slot />
       </div>
+      <div class="absolute left-1/2 -translate-x-1/2 bottom-6">
+        <ConfidentialityLevel :confidentialityLevel="$slidev.configs.confidentialityLevel" />
+      </div>
     </div>
   </div>
 </template>
