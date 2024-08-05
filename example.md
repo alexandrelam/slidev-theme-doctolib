@@ -2,13 +2,14 @@
 theme: ./
 ---
 
-# Slidev Theme Doctolib
+# Doctolib Template C0.
 
-For doctolibers who want to use Slidev for their presentations.
+Subtitle of the presentation
 
 ---
 
-# What is Slidev?
+# What is Doctolib + Slidev?
+## An amazing combination
 
 Slidev is a slides maker and presenter designed for developers, consist of the following features
 
@@ -42,26 +43,6 @@ This is a paragraph!!
 Hello
 
 ---
-layout: chapter-cover
----
-
-# 01.
-# Title of the chapter
-
-## Subtitle of the chapter
-
----
-layout: chapter-grid
----
-
-<GridItem title="01." subtitle="Title of the chapter" />
-<GridItem title="02." subtitle="Title of the chapter" />
-<GridItem title="03." subtitle="Title of the chapter" />
-<GridItem title="04." subtitle="Title of the chapter" />
-<GridItem title="05." subtitle="Hello" />
-<GridItem title="06." subtitle="Title of the chapter" />
-
----
 
 # Navigation
 
@@ -78,7 +59,7 @@ Hover on the bottom-left corner to see the navigation's controls panel
 
 ---
 layout: image-right
-image: 'https://source.unsplash.com/collection/94734566/1920x1080'
+image: 'https://img.lemde.fr/2022/10/26/0/0/3417/2286/556/0/75/0/929f397_1666825124987-000-1fc252.jpg'
 ---
 
 # Code
