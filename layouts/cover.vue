@@ -1,7 +1,9 @@
 <template>
   <div class="slidev-layout cover">
+    <img src="https://raw.githubusercontent.com/alexandrelam/slidev-theme-doctolib/new-theme/public/logo-white.png" alt="doctolib logo" class="absolute w-[100px] left-1/2 -translate-x-1/2 top-14">
+    <img src="https://raw.githubusercontent.com/alexandrelam/slidev-theme-doctolib/new-theme/public/doodle-bottom.png" alt="bottom right doodle" class="absolute w-[300px] -bottom-16 -right-16">
+    <img src="https://raw.githubusercontent.com/alexandrelam/slidev-theme-doctolib/new-theme/public/doodle-top.png" alt="top left doodle" class="absolute w-[300px] -top-24 -left-24">
     <div class="flex items-center justify-center">
-      <img src="https://private-user-images.githubusercontent.com/25727549/355212661-3b4ecb41-9983-4d47-aab3-5de60cb9bd85.png" alt="doctolib logo">
       <div class="text-center">
         <slot />
       </div>
