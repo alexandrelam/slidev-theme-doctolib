@@ -161,4 +161,18 @@
   gap: 4rem !important;
 }
 
+/* End layout styling */
+.slidev-layout.end {
+  @apply bg-white text-black;
+  background-color: white !important;
+  color: var(--slidev-theme-text) !important;
+}
+
+.slidev-layout.end h1,
+.slidev-layout.end h2,
+.slidev-layout.end h3,
+.slidev-layout.end h4 {
+  color: var(--slidev-theme-heading) !important;
+}
+
 
