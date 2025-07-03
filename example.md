@@ -169,7 +169,7 @@ class HealthcareProvider:
 
 ---
 layout: image-right
-image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
+image: 'https://media.istockphoto.com/id/1437830105/fr/photo/plan-coup%C3%A9-dune-infirmi%C3%A8re-tenant-la-main-de-son-patient-%C3%A2g%C3%A9-apporter-son-soutien-m%C3%A9decin.jpg?s=2048x2048&w=is&k=20&c=76WwPHa0B01borKhd5wc9UAyLpP9FlgPNyP_FtQjkZw='
 ---
 
 # 🏥 Healthcare Focus
@@ -209,16 +209,16 @@ Click interactions work in presenter mode!
 </div>
 
 ---
-layout: two-cols
----
 
 # 📊 Data Visualization
 
+<div class="flex gap-8">
+
+<div class="flex-1">
+
 Charts and graphs integrate beautifully:
 
-::left::
-
-```mermaid
+```mermaid{scale: 0.6}
 graph TD
     A[Patient Registration] --> B[Medical History]
     B --> C[Diagnosis]
@@ -227,23 +227,27 @@ graph TD
     E --> F[Recovery]
 ```
 
-::right::
+</div>
 
-<div class="space-y-4">
-  <div class="bg-blue-100 p-4 rounded">
-    <h4 class="font-semibold text-blue-800">Appointments</h4>
-    <div class="text-2xl font-bold text-blue-600">1,247</div>
-  </div>
+<div class="flex-1 space-y-3">
 
-  <div class="bg-green-100 p-4 rounded">
-    <h4 class="font-semibold text-green-800">Patients</h4>
-    <div class="text-2xl font-bold text-green-600">892</div>
-  </div>
+<div class="bg-blue-100 p-3 rounded">
+<h4 class="font-semibold text-blue-800">Appointments</h4>
+<div class="text-2xl font-bold text-blue-600">1,247</div>
+</div>
 
-  <div class="bg-purple-100 p-4 rounded">
-    <h4 class="font-semibold text-purple-800">Satisfaction</h4>
-    <div class="text-2xl font-bold text-purple-600">94%</div>
-  </div>
+<div class="bg-green-100 p-3 rounded">
+<h4 class="font-semibold text-green-800">Patients</h4>
+<div class="text-2xl font-bold text-green-600">892</div>
+</div>
+
+<div class="bg-purple-100 p-3 rounded">
+<h4 class="font-semibold text-purple-800">Satisfaction</h4>
+<div class="text-2xl font-bold text-purple-600">94%</div>
+</div>
+
+</div>
+
 </div>
 
 ---
@@ -252,7 +256,8 @@ graph TD
 
 ## Theme Capabilities
 
-<div class="grid grid-cols-2 gap-6">
+<div class="flex justify-center">
+<div class="grid grid-cols-2 gap-4 w-full max-w-3xl">
 
 <div>
 <h3 class="text-lg font-semibold mb-3">🎨 Design System</h3>
@@ -294,6 +299,7 @@ graph TD
 </ul>
 </div>
 
+</div>
 </div>
 
 ---
