@@ -65,23 +65,51 @@ confidentialityLevel: 2
 
 The theme uses **Montserrat** font family for optimal readability.
 
+<div class="mt-4">
+
 ## Heading Level 2
 ### Heading Level 3
 #### Heading Level 4
 
+</div>
+
+<div class="mt-4">
+
 **Bold text** and *italic text* are properly styled.
+
+</div>
+
+<div class="mt-3">
 
 Regular paragraph text maintains excellent readability with proper line spacing and contrast ratios for accessibility.
 
+</div>
+
+<div class="mt-3">
+
 > Blockquotes are styled with Doctolib's design system
+
+</div>
+
+<div class="grid grid-cols-2 gap-4 mt-3">
+
+<div>
 
 - Unordered lists work great
 - With proper spacing
 - And visual hierarchy
 
+</div>
+
+<div>
+
 1. Ordered lists too
 2. Are properly formatted
 3. Following design standards
+
+</div>
+
+</div>
 
 ---
 confidentialityLevel: 3
@@ -141,13 +169,13 @@ image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.
 
 Perfect for medical and healthcare presentations:
 
-- **Patient Care** - Share treatment protocols and care guidelines
-- **Medical Research** - Present clinical findings and research data  
+- **Patient Care** - Treatment protocols and care guidelines
+- **Medical Research** - Clinical findings and research data  
 - **Team Training** - Onboard new healthcare professionals
-- **Compliance** - Demonstrate HIPAA and privacy compliance
-- **Technology** - Showcase health tech innovations
+- **Compliance** - HIPAA and privacy compliance
+- **Technology** - Health tech innovations
 
-The theme's professional appearance builds trust and credibility in healthcare communications.
+Professional appearance builds trust and credibility in healthcare communications.
 
 ---
 layout: center
