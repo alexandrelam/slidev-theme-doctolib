@@ -113,17 +113,18 @@ Regular paragraph text maintains excellent readability with proper line spacing 
 
 ---
 confidentialityLevel: 3
-layout: two-cols
 ---
 
 # 💻 Code Highlighting
 
 The theme supports syntax highlighting for multiple programming languages:
 
-::left::
+<div class="grid grid-cols-2 gap-6 mt-6">
+
+<div>
 
 **TypeScript/JavaScript**
-```ts
+```ts {2-5|7-12|all}
 interface DoctolibUser {
   id: string
   name: string
@@ -140,16 +141,18 @@ const createUser = (userData: Partial<DoctolibUser>) => {
 }
 ```
 
-::right::
+</div>
+
+<div>
 
 **Python**
-```python
+```python {2-5|7-13|all}
 class HealthcareProvider:
     def __init__(self, name: str, specialty: str):
         self.name = name
         self.specialty = specialty
         self.appointments = []
-    
+
     def book_appointment(self, patient_id: str, date: str):
         appointment = {
             'patient_id': patient_id,
@@ -159,6 +162,10 @@ class HealthcareProvider:
         self.appointments.append(appointment)
         return appointment
 ```
+
+</div>
+
+</div>
 
 ---
 layout: image-right
@@ -170,7 +177,7 @@ image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.
 Perfect for medical and healthcare presentations:
 
 - **Patient Care** - Treatment protocols and care guidelines
-- **Medical Research** - Clinical findings and research data  
+- **Medical Research** - Clinical findings and research data
 - **Team Training** - Onboard new healthcare professionals
 - **Compliance** - HIPAA and privacy compliance
 - **Technology** - Health tech innovations
@@ -227,12 +234,12 @@ graph TD
     <h4 class="font-semibold text-blue-800">Appointments</h4>
     <div class="text-2xl font-bold text-blue-600">1,247</div>
   </div>
-  
+
   <div class="bg-green-100 p-4 rounded">
     <h4 class="font-semibold text-green-800">Patients</h4>
     <div class="text-2xl font-bold text-green-600">892</div>
   </div>
-  
+
   <div class="bg-purple-100 p-4 rounded">
     <h4 class="font-semibold text-purple-800">Satisfaction</h4>
     <div class="text-2xl font-bold text-purple-600">94%</div>
