@@ -1,9 +1,24 @@
 :root {
   --slidev-theme-primary: #2b6abf;
+  --slidev-theme-doctolib-dark: #00264C;
+  --slidev-theme-doctolib-light: #107ACA;
+  --slidev-theme-text: #00264C;
+  --slidev-theme-heading: #107ACA;
+  --slidev-theme-cover-bg: #107ACA;
+}
+
+:root.dark {
+  --slidev-theme-primary: #4a9eff;
+  --slidev-theme-doctolib-dark: #4a9eff;
+  --slidev-theme-doctolib-light: #6bb6ff;
+  --slidev-theme-text: #e0e0e0;
+  --slidev-theme-heading: #8cc8ff;
+  --slidev-theme-cover-bg: #1a1a1a;
 }
 
 .slidev-layout {
-  @apply px-14 py-10 text-[1.1rem] text-[#00264C];
+  @apply px-14 py-10 text-[1.1rem];
+  color: var(--slidev-theme-text);
 
   h1,
   h2,
@@ -23,7 +38,7 @@
   h2,
   h3,
   h4 {
-    @apply text-[#107ACA];
+    color: var(--slidev-theme-heading);
   }
 
   h1 {
@@ -68,7 +83,8 @@
   }
 
   blockquote {
-    @apply text-sm px-2 py-1 bg-$prism-background border-$slidev-theme-primary border-l rounded;
+    @apply text-sm px-2 py-1 bg-$prism-background border-l rounded;
+    border-color: var(--slidev-theme-primary);
   }
 
   blockquote > * {
@@ -88,7 +104,11 @@
   }
 
   a {
-    @apply border-current border-b border-dashed hover:(text-$slidev-theme-primary border-solid);
+    @apply border-current border-b border-dashed hover:border-solid;
+  }
+
+  a:hover {
+    color: var(--slidev-theme-primary);
   }
 
   td,
@@ -108,7 +128,8 @@
 }
 
 .slidev-layout.cover {
-  @apply h-full grid bg-[#107ACA] text-white;
+  @apply h-full grid text-white;
+  background-color: var(--slidev-theme-cover-bg);
 
   h1 {
     @apply text-5xl leading-20 font-700 -mt-10 text-white;
@@ -123,6 +144,21 @@
   table + h2 {
     @apply mt-10;
   }
+}
+
+/* Slidev two-column layout styling */
+.slidev-layout.two-columns {
+  gap: 4rem !important;
+}
+
+.slidev-layout.two-columns .col-left,
+.slidev-layout.two-columns .col-right {
+  padding: 0;
+}
+
+/* Alternative targeting */
+.grid.grid-cols-2.w-full.h-full {
+  gap: 4rem !important;
 }
 
 

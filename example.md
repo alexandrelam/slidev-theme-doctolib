@@ -340,7 +340,6 @@ layout: two-cols
 
 Essential commands for working with the theme:
 
-::left::
 
 **Development**
 ```bash
