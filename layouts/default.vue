@@ -6,7 +6,7 @@
             <ConfidentialityLevel :confidentialityLevel="$slidev.configs.confidentialityLevel" :isLight="true" :isSmall="true"/>
         </div>
         <div class="absolute text-xs bottom-6 right-10">
-            <span>{{ $nav.currentPage }} / {{ $nav.total }}</span>
+            <span>{{ $nav?.currentPage || 1 }} / {{ $nav?.total || 1 }}</span>
         </div>
     </div>
 </template>

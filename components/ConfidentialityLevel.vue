@@ -1,7 +1,13 @@
-<script setup>
-const props = defineProps(['confidentialityLevel', 'isLight', 'isSmall'])
+<script setup lang="ts">
+interface Props {
+  confidentialityLevel: number
+  isLight?: boolean
+  isSmall?: boolean
+}
 
-function confidentialityLevel() {
+const props = defineProps<Props>()
+
+function getConfidentialityText() {
     switch (props.confidentialityLevel) {
         case 0:
             return 'Public'
@@ -24,6 +30,6 @@ function confidentialityLevel() {
             <span>C</span>
             <span>{{ props.confidentialityLevel }}</span>
         </div>
-        <span :class="[isSmall ? 'text-xs' : 'text-sm']">{{ confidentialityLevel() }}</span>
+        <span :class="[isSmall ? 'text-xs' : 'text-sm']">{{ getConfidentialityText() }}</span>
     </div>
 </template>
