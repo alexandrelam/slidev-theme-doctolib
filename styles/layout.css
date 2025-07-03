@@ -58,7 +58,11 @@
   }
 
   h3:not(.opacity-100) {
-    @apply opacity-40;
+    @apply opacity-80;
+  }
+
+  h4 {
+    @apply text-base font-600 mt-2 mb-1 opacity-60;
   }
 
   p {
