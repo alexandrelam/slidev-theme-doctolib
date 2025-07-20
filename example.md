@@ -262,40 +262,40 @@ graph TD
 <div>
 <h3 class="text-lg font-semibold mb-3">🎨 Design System</h3>
 <ul class="text-sm space-y-1">
-<li>• Doctolib brand colors</li>
-<li>• Consistent spacing</li>
-<li>• Professional typography</li>
-<li>• Accessibility compliant</li>
+<li>Doctolib brand colors</li>
+<li>Consistent spacing</li>
+<li>Professional typography</li>
+<li>Accessibility compliant</li>
 </ul>
 </div>
 
 <div>
 <h3 class="text-lg font-semibold mb-3">🔧 Developer Tools</h3>
 <ul class="text-sm space-y-1">
-<li>• Vue 3 components</li>
-<li>• Tailwind CSS utilities</li>
-<li>• TypeScript support</li>
-<li>• Hot reload development</li>
+<li>Vue 3 components</li>
+<li>Tailwind CSS utilities</li>
+<li>TypeScript support</li>
+<li>Hot reload development</li>
 </ul>
 </div>
 
 <div>
 <h3 class="text-lg font-semibold mb-3">📱 Export Options</h3>
 <ul class="text-sm space-y-1">
-<li>• PDF presentations</li>
-<li>• PNG slide images</li>
-<li>• Static HTML sites</li>
-<li>• SPA deployment</li>
+<li>PDF presentations</li>
+<li>PNG slide images</li>
+<li>Static HTML sites</li>
+<li>SPA deployment</li>
 </ul>
 </div>
 
 <div>
 <h3 class="text-lg font-semibold mb-3">🎯 Layouts</h3>
 <ul class="text-sm space-y-1">
-<li>• Cover slides</li>
-<li>• Two-column layouts</li>
-<li>• Image positioning</li>
-<li>• Center alignment</li>
+<li>Cover slides</li>
+<li>Two-column layouts</li>
+<li>Image positioning</li>
+<li>Center alignment</li>
 </ul>
 </div>
 

@@ -64,7 +64,7 @@ Standard procedures for patient care...
 Set the appropriate confidentiality level using the `confidentialityLevel` frontmatter:
 
 - `0` - **C0 Public** - Information that can be shared openly
-- `1` - **C1 Internal** - For internal company use only  
+- `1` - **C1 Internal** - For internal company use only
 - `2` - **C2 Restricted** - Limited access required
 - `3` - **C3 Protected** - Highest security level
 
@@ -179,7 +179,7 @@ exportFilename: "custom-filename"
 confidentialityLevel: 0  # 0-3
 fonts:
   sans: "Montserrat"  # Default font
-highlighter: "prism"   # Code highlighting
+highlighter: "shiki"  # Code highlighting
 ---
 ```
 
