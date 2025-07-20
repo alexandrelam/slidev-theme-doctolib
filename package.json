@@ -1,6 +1,6 @@
 {
   "name": "slidev-theme-doctolib",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "keywords": [
     "slidev-theme",
     "slidev",
@@ -8,7 +8,7 @@
   ],
   "engines": {
     "node": ">=14.0.0",
-    "slidev": ">=52.0.0"
+    "slidev": ">=50.0.0"
   },
   "scripts": {
     "build": "slidev build example.md",
